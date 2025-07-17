@@ -14,7 +14,7 @@ initial begin
 a=0;
 #10;
 a=1;
-#10
+#10;
 $display ("time=%t,a=%d,y=%d",$time,a,y);
 $finish;
 end 
